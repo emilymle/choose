@@ -8,7 +8,7 @@ var nameLoop = function() {
 // nameLoop();
 
 var randomName = function() {
-  var arrayPosition = Math.floor((Math.random() * 22) + 1);
+  var arrayPosition = Math.floor((Math.random() * 22));
   console.log(wdi_17_names[arrayPosition]);
 };
-randomName();
+// randomName();
